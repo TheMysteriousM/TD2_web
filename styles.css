@@ -1,0 +1,10 @@
+.container {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Optional: Vertically align the text and image */
+}
+
+.container img {
+    margin-left: 20px; /* Adds space between the text and the image */
+    max-width: 200px; /* Optional: Set the size of the image */
+    height: auto; /* Maintain image aspect ratio */
+}

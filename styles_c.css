@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";/* CSS Document */
+
+h1 {
+    text-align: center; /* Centers the text horizontally */
+    color: blue ;
+    size: 10px;
+    font-family: "Copperlate", Fantasy;
+}
+h2 {
+            size: 20px;
+            border-bottom: 2px outset;
+}
+
+h2.Ed {
+    color: grey ;
+    border-bottom-color: grey;
+}
+h2.Sk {
+    color: rgb(63, 63, 63) ;
+    border-bottom-color: grey;
+}
+h2.Ho {
+    color: rgb(0, 0, 0) ;
+    border-bottom-color: grey;
+}
+
+nav {
+    padding: 10px ;
+    text-align: center ;
+    
+}
+.header {
+    background-color: #f0f0f0;
+    border-top-style: double ;
+    border-bottom-style: dashed ;
+    border-color: orange ;
+}
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px ;
+    text-align: center ;
+    border-top-style: solid ;
+    border-bottom-style: none ;
+    border-color: black ;
+}
+nav a {
+            margin: 10px;
+}
+div.civil_state {
+    background-color: #00EFFF;
+    width: 60%;
+    border-style: rounded ;
+    margin-top: 10px ;
+    border: 2px solid #0700FF;
+    border-radius: 10px;
+    display: flex; /* Align items in a row */
+    align-items: center; /* Optional: Vertically align the text and image */
+}
+
+div.container {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Optional: Vertically align the text and image */
+}
+
+div.container img {
+    margin-left: 50px; /* Adds space between the text and the image */
+    max-width: 200px; /* Optional: Set the size of the image */
+    border: 2px double #1eff00 ;
+    height: auto; /* Maintain image aspect ratio */
+}

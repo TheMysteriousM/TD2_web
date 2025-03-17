@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";/* CSS Document */
+
+header {
+    width: 100% ;
+    text-align: center;
+}
+
+h1 {
+    text-align: center; /* Centers the text horizontally */
+    color: blue ;
+    size: 20px;
+}
+
+h2 {
+            color: grey ;
+            size: 20px;
+            border-left-style: outset;
+}
+
+body {
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px ;
+    text-align: center ;
+    border-top-style: double ;
+    border-bottom-style: dashed ;
+    border-color: orange ;
+}
+
+nav a {
+            margin: 10px;
+}
+
+.header {
+    border-top-style: double ;
+    border-bottom-style: dashed ;
+    border-color: orange ;
+}
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px ;
+    text-align: center ;
+    border-top-style: double ;
+    border-color: black ;
+}
+
+.footer a {
+            margin: 10px;
+}
